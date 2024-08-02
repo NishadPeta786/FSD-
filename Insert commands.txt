@@ -1,0 +1,64 @@
+Locations :
+
+INSERT INTO Locations (LocationName) VALUES ('Mumbai');
+INSERT INTO Locations (LocationName) VALUES ('Delhi');
+INSERT INTO Locations (LocationName) VALUES ('Bengaluru');
+INSERT INTO Locations (LocationName) VALUES ('Hyderabad');
+INSERT INTO Locations (LocationName) VALUES ('Ahmedabad');
+INSERT INTO Locations (LocationName) VALUES ('Chennai');
+INSERT INTO Locations (LocationName) VALUES ('Kolkata');
+INSERT INTO Locations (LocationName) VALUES ('Pune');
+INSERT INTO Locations (LocationName) VALUES ('Jaipur');
+INSERT INTO Locations (LocationName) VALUES ('Lucknow');
+
+Specialty :
+
+INSERT INTO Specialties (Name) VALUES ('Cardiology');
+INSERT INTO Specialties (Name) VALUES ('Dermatology');
+INSERT INTO Specialties (Name) VALUES ('Neurology');
+INSERT INTO Specialties (Name) VALUES ('Pediatrics');
+INSERT INTO Specialties (Name) VALUES ('Orthopedics');
+INSERT INTO Specialties (Name) VALUES ('Gynecology');
+INSERT INTO Specialties (Name) VALUES ('Ophthalmology');
+INSERT INTO Specialties (Name) VALUES ('Psychiatry');
+INSERT INTO Specialties (Name) VALUES ('Radiology');
+INSERT INTO Specialties (Name) VALUES ('Anesthesiology');
+
+Doctors :
+
+INSERT INTO Doctors (Name, PhoneNo, LocationId) VALUES ('Dr. Ravi Kumar', '9123456789', 1);
+INSERT INTO Doctors (Name, PhoneNo, LocationId) VALUES ('Dr. Anjali Sharma', '9123456790', 2);
+INSERT INTO Doctors (Name, PhoneNo, LocationId) VALUES ('Dr. Pooja Verma', '9123456791', 3);
+INSERT INTO Doctors (Name, PhoneNo, LocationId) VALUES ('Dr. Rohit Mehta', '9123456792', 4);
+INSERT INTO Doctors (Name, PhoneNo, LocationId) VALUES ('Dr. Seema Patel', '9123456793', 5);
+INSERT INTO Doctors (Name, PhoneNo, LocationId) VALUES ('Dr. Arjun Reddy', '9123456794', 6);
+INSERT INTO Doctors (Name, PhoneNo, LocationId) VALUES ('Dr. Sunita Joshi', '9123456795', 7);
+INSERT INTO Doctors (Name, PhoneNo, LocationId) VALUES ('Dr. Manoj Desai', '9123456796', 8);
+INSERT INTO Doctors (Name, PhoneNo, LocationId) VALUES ('Dr. Ramesh Gupta', '9123456797', 9);
+INSERT INTO Doctors (Name, PhoneNo, LocationId) VALUES ('Dr. Priya Singh', '9123456798', 10);
+INSERT INTO Doctors (Name, PhoneNo, LocationId) VALUES ('Dr. Desai Manoj', '9123456796', 10);
+INSERT INTO Doctors (Name, PhoneNo, LocationId) VALUES ('Dr. Gupta Ramesh', '9123456797', 10);
+INSERT INTO Doctors (Name, PhoneNo, LocationId) VALUES ('Dr. Singh Priya', '9123456798', 10);
+
+
+
+Steps:
+
+Web api :
+
+1. GO to appsettings.json and change Data source with your sql server name.
+2. go to package manager console. and run below commands
+	1. add-migration anyname
+	2. update-database
+	
+3. Go to sql server, choose your database. and run above commands.
+
+
+React js :
+
+Open project in vs code and open new terminal.
+run command  
+
+npm install
+npm start
+
